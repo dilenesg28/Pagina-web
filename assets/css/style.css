@@ -3,10 +3,17 @@
     margin: 0;
     padding: 0;
 }
-#0E0D0D
+body{
+    height: 100vh; /*100 % da tela*/
+    box-sizing: border-box; /*Para que nenhum elemento sai da página do body*/
+    background-color:#0E0D0D; 
+   
+}
+
+
 
 .div_cabecalho{
-    background: #3F3B3B;
+    background: #d40f0f;
     height:150px;     
     margin-left: 10px;
    
@@ -29,17 +36,18 @@
     background: #3f3b3b;
     width: 329x;
     height: 56px;
-    text-align: left;
+    text-align: justify ;
     border-radius: 16px;
     font-size: 12px;
     padding: 5.5px 0
     text-decoration: none;
-    
+    text-decoration: none;    
     font-weight: 400;
     size: 18px;
     line-height: 23.33px;
     color:#FBF8F8;
     font: Mada;
+    
     clear: both;
     
 
@@ -68,13 +76,29 @@
     
 }
 .div_menuII{
-    height: 500px;
+    height: 400px;
     width: 300px;
     margin-left: 10px;
-    background: #5159c9;
+    background: #3a3a4032;
     float: left;
     margin-top: 10px;
-    
+    display: flex; /*para alinhar e distribuir os links*/
+    justify-content:space-between; 
+    flex-direction: column; 
+    text-decoration: none;
+    clear: both;    
+}
+.div_menuII_opcoes{
+    background-color: ;
+    width:216px ;
+    height: 35px;
+    text-align: left;
+    border-radius: 16px;
+    font-size:24px ;
+    padding:21.5px 0 ; /*distancia da borda 1º valor horizonta 2º horizontal*/
+    text-decoration: none;
+    color:#fbf8f8 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 .div_rodape{
     height:150px;
