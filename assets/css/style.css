@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Libre+Baskerville:wght@700 & family= Mada & family= Poppins:wght@200;600;900 & display=swap' );
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Mada&family=Poppins:wght@200;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,36 +7,36 @@
 body{
     height: 100vh; /*100 % da tela*/
     box-sizing: border-box; /*Para que nenhum elemento sai da página do body*/
-    background-color:#282626; 
-
-   
+    background-color:#000000;  
 }
-
-
-
-.div_cabecalho{
+.div_cabecalho{  
+    /*  
+    background-image: url('../image/cabecalhoXX.png');   
+    
     background:#3a3a4032;
-    height:150px;     
+    */
+    width: 100%;
+    height: 180px;
     margin-left: 10px;
     color:#FBF8F8;
-    font-family: 'Mada', sans-serif;   
-   
+    font-family: 'Poppins', sans-serif; 
+
     
 }
+.imagen_cabecalho{
+    width: 100%;
+    height: 180px;
+
+}
 .div_menu{
-    height: 400px;
+    height: 530px;
     width: 400px;
     background:#3a3a4032;
     float: left;
     margin-top: 10px;
-    margin-left: 10px;
-    
-    
+    margin-left: 10px;   
 }
 .div_menu_opcoes{
-    
-    /* border: 2px solid #3F3B3B;
-     /*background-color: #7222fd; */
     background: #3f3b3b;
     width: 329px;
     height: 56px;
@@ -51,43 +51,25 @@ body{
     line-height: 23.33px;
     color:#FBF8F8;
     font-family: 'Mada', sans-serif;    
-    clear: both;
-    
-
-    
+    clear: both;   
 }
-
 .div_menu_texto{/*formata os quadrados*/
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;    
     display:flex;
     flex-direction: column;
     gap: 8px;
     clear: both;
 }
-
-
 .div_imagem_centro{
-    height: 400px;
-    width: 90%;
-    background: #3a3a4032;
+    background-image: url('../image/image02.jpg');
+    background-size: cover;
+    height: 530px;
     margin-top: 10px;    
     margin-left: 420px;
     color:#FBF8F8;
-    font-family: 'Mada', sans-serif;   
-    
-    
-}
-.div_menuII{
-    height: 400px;
-    width: 400px;
-    margin-left: 10px;
-    background: #3a3a4032;
-    float: left;
-    margin-top: 10px;
-    
+    font-family: 'Mada', sans-serif;    
 }
 .div_menuII_quadrados{
     display: flex;
@@ -96,13 +78,12 @@ body{
     display: flex; /*para alinhar e distribuir os links*/
     justify-content:space-between; 
     flex-direction: column; 
-    gap: 15px;  
-    
+    gap: 15px;    
 }
-
+.div_menuII_opcoes:hover{
+    background-color: #ff0000;
+}
 .div_menuII_opcoes{
-   
-
     background-color:#3f3b3b ;
     width:329px ;
     height: 10px;   
@@ -115,15 +96,28 @@ body{
     font-family: 'Mada', sans-serif;    
 }
 
+.botao{
+    background-color: #0ab1f3;
+    width:329px ;
+    height: 10px;   
+    text-align:center;   
+    border-radius: 16px; /*arredonda a borda do quadrado*/
+    font-size:12px ;
+    padding:11.5px 0 ; /*distancia da borda 1º valor horizonta 2º horizontal*/
+    text-decoration: none;
+    color:#fbf8f8 ;
+    font-family: 'Mada', sans-serif; 
+} 
+.botao:hover{
+    background: #0B2B00;
+}
 
-.div_rodape{
-    height:150px;
+.rodape{
     margin-top: 10px;  
-    margin-left: 10px; 
+    margin-left: 10px;
+    font-family: 'Montserrat',sans-serif;   
+    font-size:10px;
+    font-weight: 700;
     background:#3a3a4032;
-    clear:both
-    
-    
-
-
+    color: #ffffff;
 }
