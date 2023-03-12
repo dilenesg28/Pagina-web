@@ -9,19 +9,12 @@ body{
     box-sizing: border-box; /*Para que nenhum elemento sai da página do body*/
     background-color:#000000;  
 }
-.div_cabecalho{  
-    /*  
-    background-image: url('../image/cabecalhoXX.png');   
-    
-    background:#3a3a4032;
-    */
+.div_cabecalho{    
     width: 100%;
     height: 180px;
     margin-left: 10px;
     color:#FBF8F8;
-    font-family: 'Poppins', sans-serif; 
-
-    
+    font-family: 'Poppins', sans-serif;    
 }
 .imagen_cabecalho{
     width: 100%;
@@ -61,6 +54,23 @@ body{
     flex-direction: column;
     gap: 8px;
     clear: both;
+}
+.div_rede{
+    height: 120px;
+    width: 390px;
+    background:#0000d632;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+section{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    line-height: 150%;    
+    color:#FBF8F8;
+    font-family: 'Mada', sans-serif; 
+
 }
 .div_imagem_centro{
     background-image: url('../image/image02.jpg');
